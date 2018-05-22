@@ -60,8 +60,7 @@ services:
         registry_nginx['listen_https'] = true
         registry_nginx['proxy_set_headers'] = {
           "X-Forwarded-Proto" => "https",
-          "X-Forwarded-Ssl" => "on",
-          # "Host" => "registry.gitlab.example.com"
+          "X-Forwarded-Ssl" => "on"
         }
     hostname: 'gitlab.example.com'
     ports:
