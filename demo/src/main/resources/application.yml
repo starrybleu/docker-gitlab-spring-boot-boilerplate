@@ -1,0 +1,7 @@
+spring:
+  data:
+    mongodb:
+      host: docker.example.com
+      port: 27017
+      database: springboot
+      uri: mongodb://root:1234@docker.example.com:27017
